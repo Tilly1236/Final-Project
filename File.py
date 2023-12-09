@@ -12,7 +12,7 @@ class VotingSystem:
         Display the vote menu and get user input.
 
         Returns:
-            str: User's choice ('v' for vote, 'x' for exit).
+           str: User's choice ('v' for vote, 'x' for exit).
         """
         print('---------------------------')
         print("VOTE MENU")
@@ -32,7 +32,7 @@ class VotingSystem:
         Display the candidate menu and get user's candidate choice.
 
         Returns:
-            int: User's candidate choice (1 for John, 2 for Jane).
+           int: User's candidate choice (1 for John, 2 for Jane).
         """
         print('---------------------')
         print('CANDIDATE MENU')
@@ -62,7 +62,7 @@ class VotingSystem:
         Process the user's vote and update the vote counts.
 
         Args:
-            candidate (int): User's candidate choice (1 for John, 2 for Jane).
+           candidate (int): User's candidate choice (1 for John, 2 for Jane).
         """
         if candidate == 1:
             print('Voted John')
